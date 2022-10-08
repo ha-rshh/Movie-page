@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #748289;
+}
+
+header {
+    background-color: #1280cf;
+    padding: 10px;
+}
+.vikings {
+    color: #ffffffb0;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';    font-size: 2.5vw;
+    letter-spacing: 8px;
+}
+
+
+.poster{
+    margin: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.poster img{
+    width: 250px;
+    border-radius:20px;
+}
+.main-container{
+   margin: 20px;
+}
+.tag, .watch{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+}
+div.tag-line{
+    color: white;
+    display: inline-block;
+    border: 1px solid rgb(232, 237, 255);
+    border-radius: 2px;
+    text-align:center;
+    padding: 15px;
+}
+.netflix{
+    background-color:aquamarine;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(25, 44, 59,8);
+    padding: 4px 15px;
+    cursor: pointer;
+}
+.netflix:hover{
+    box-shadow: 0px 0px 5px 1px rgba(97,255,255,1);
+}
+.watch-later{
+    position: absolute;
+    background-color: white;
+    color:#192C3B;
+    padding: 4px 33px;
+    border: 1px solid rgb(12, 48, 228);
+   
+}
+.watch-later:hover{
+    border:0px;
+    box-shadow: 0px 0px 5px 1px rgba(97,255,255,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    margin-top: auto;
+    background-color: #192C3B;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+ul {
+    padding: 10px;
+}
+
+li {
+
+    border-bottom: #ffffff dashed 2px;
+    color: white;
+    display: inline-block;
+    list-style-type: none;
+    margin: 20px;
+}
+
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #F2BA29;
+}
